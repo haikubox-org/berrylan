@@ -248,14 +248,14 @@ ApplicationWindow {
                         }
                     }
 
-                    Button {
-                        Layout.alignment: Qt.AlignHCenter
-                        visible: networkManager.manager.accessPointModeAvailable
-                        text: qsTr("Open Access Point")
-                        onClicked: {
-                            swipeView.currentIndex++
-                        }
-                    }
+//                    Button {
+//                        Layout.alignment: Qt.AlignHCenter
+//                        visible: networkManager.manager.accessPointModeAvailable
+//                        text: qsTr("Open Access Point")
+//                        onClicked: {
+//                            swipeView.currentIndex++
+//                        }
+//                    }
                 }
 
 
@@ -357,32 +357,32 @@ ApplicationWindow {
 
                     ColumnLayout {
                         anchors.fill: parent
-                        Label {
-                            Layout.fillWidth: true
-                            Layout.margins: app.margins
-                            text: d.accessPointMode
-                                  ? qsTr("Access point name: %1").arg(networkManager.manager.currentConnection.ssid)
-                                  : networkManager.manager.currentConnection ? qsTr("IP Address: %1").arg(networkManager.manager.currentConnection.hostAddress) : ""
-                            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-                            font.pixelSize: app.largeFont
-                            font.bold: true
-                            horizontalAlignment: Text.AlignHCenter
-                            MouseArea {
-                                anchors.fill: parent
-                                onClicked: {
-                                    clipBoard.text = networkManager.manager.currentConnection.hostAddress
-                                    parent.ToolTip.show(qsTr("IP address copied to clipboard."), 2000)
-                                }
-                            }
-                        }
-                        Button {
-                            Layout.alignment: Qt.AlignHCenter
-                            visible: d.accessPointMode
-                            text: qsTr("Close access point")
-                            onClicked: {
-                                networkManager.manager.disconnectWirelessNetwork();
-                            }
-                        }
+//                        Label {
+//                            Layout.fillWidth: true
+//                            Layout.margins: app.margins
+//                            text: d.accessPointMode
+//                                  ? qsTr("Access point name: %1").arg(networkManager.manager.currentConnection.ssid)
+//                                  : networkManager.manager.currentConnection ? qsTr("IP Address: %1").arg(networkManager.manager.currentConnection.hostAddress) : ""
+//                            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+//                            font.pixelSize: app.largeFont
+//                            font.bold: true
+//                            horizontalAlignment: Text.AlignHCenter
+//                            MouseArea {
+//                                anchors.fill: parent
+//                                onClicked: {
+//                                    clipBoard.text = networkManager.manager.currentConnection.hostAddress
+//                                    parent.ToolTip.show(qsTr("IP address copied to clipboard."), 2000)
+//                                }
+//                            }
+//                        }
+//                        Button {
+//                            Layout.alignment: Qt.AlignHCenter
+//                            visible: d.accessPointMode
+//                            text: qsTr("Close access point")
+//                            onClicked: {
+//                                networkManager.manager.disconnectWirelessNetwork();
+//                            }
+//                        }
 
                         Item {
                             Layout.fillWidth: true
