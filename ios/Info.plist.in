@@ -34,9 +34,9 @@
                 <string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
         <key>NSBluetoothPeripheralUsageDescription</key>
-        <string>This app allows configuring WiFi on Raspberry Pi devices using a Bluetooth setup.</string>
+        <string>This app allows configuring WiFi on Haikuox devices using a Bluetooth setup.</string>
         <key>NSBluetoothAlwaysUsageDescription</key>
-        <string>This app allows configuring WiFi on Raspberry Pi devices using a Bluetooth setup.</string>
+        <string>This app allows configuring WiFi on Haikubox devices using a Bluetooth setup.</string>
         <key>CFBundleIconFiles</key>
         <array>
             <string>AppIcon29x29.png</string>

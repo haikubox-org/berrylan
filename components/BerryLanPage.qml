@@ -40,41 +40,41 @@ Page {
         RowLayout {
             anchors { top: parent.top; margins: app.margins; horizontalCenter: parent.horizontalCenter }
             height: app.iconSize
+//            Label {
+//                Layout.fillWidth: true
+//                Layout.preferredHeight: app.iconSize * .8
+//                text: qsTr("an open source tool by")
+//                font.pixelSize: app.smallFont
+//                horizontalAlignment: Text.AlignRight
+//                verticalAlignment: Text.AlignBottom
+//            }
+//            Image {
+//                Layout.preferredHeight: app.iconSize
+//                sourceSize.height: app.iconSize
+//                source: "../images/nymea.svg"
+//                MouseArea {
+//                    anchors.fill: parent
+//                    onClicked: Qt.openUrlExternally("https://nymea.io")
+//                }
+//            }
             Label {
-                Layout.fillWidth: true
                 Layout.preferredHeight: app.iconSize * .8
-                text: qsTr("an open source tool by")
-                font.pixelSize: app.smallFont
-                horizontalAlignment: Text.AlignRight
-                verticalAlignment: Text.AlignBottom
-            }
-            Image {
-                Layout.preferredHeight: app.iconSize
-                sourceSize.height: app.iconSize
-                source: "../images/nymea.svg"
-                MouseArea {
-                    anchors.fill: parent
-                    onClicked: Qt.openUrlExternally("https://nymea.io")
-                }
-            }
-            Label {
-                Layout.preferredHeight: app.iconSize * .8
-                text: "n y m e a     "
+                text: "h a i k u b o x     "
                 font.pixelSize: app.smallFont
                 horizontalAlignment: Text.AlignRight
                 verticalAlignment: Text.AlignBottom
             }
         }
-        ColorIcon {
-            width: app.iconSize
-            height: app.iconSize
-            anchors { right: parent.right; top: parent.top; margins: app.margins }
-            name: "../images/help.svg"
+//        ColorIcon {
+//            width: app.iconSize
+//            height: app.iconSize
+//            anchors { right: parent.right; top: parent.top; margins: app.margins }
+//            name: "../images/help.svg"
 
-            MouseArea {
-                anchors.fill: parent
-                onClicked: root.helpClicked()
-            }
-        }
+//            MouseArea {
+//                anchors.fill: parent
+//                onClicked: root.helpClicked()
+//            }
+//        }
     }
 }

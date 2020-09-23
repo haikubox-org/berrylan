@@ -404,20 +404,26 @@ ApplicationWindow {
                                     Layout.fillWidth: true
                                     wrapMode: Text.WordWrap
                                     horizontalAlignment: Text.AlignHCenter
-                                }
-                                ColorIcon {
-                                    Layout.preferredHeight: app.iconSize
-                                    Layout.preferredWidth: app.iconSize
-                                    Layout.alignment: Qt.AlignHCenter
-                                    name: "../images/github.svg"
-
                                     MouseArea {
                                         anchors.fill: parent
                                         onClicked: {
-                                            Qt.openUrlExternally("https://haikubox.com")
+                                            Qt.openUrlExternally("http://haikubox.com")
                                         }
                                     }
                                 }
+//                                ColorIcon {
+//                                    Layout.preferredHeight: app.iconSize
+//                                    Layout.preferredWidth: app.iconSize
+//                                    Layout.alignment: Qt.AlignHCenter
+//                                    name: "../images/github.svg"
+
+//                                    MouseArea {
+//                                        anchors.fill: parent
+//                                        onClicked: {
+//                                            Qt.openUrlExternally("https://haikubox.com")
+//                                        }
+//                                    }
+//                                }
                             }
                         }
                     }

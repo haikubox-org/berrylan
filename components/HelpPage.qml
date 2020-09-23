@@ -5,13 +5,13 @@ import QtWebView 1.1
 
 Page {
     header: BerryLanHeader {
-        text: qsTr("About BerryLan")
+        text: qsTr("About Haikubox")
         backButtonVisible: true
         onBackClicked: pageStack.pop()
     }
 
     WebView {
         anchors.fill: parent
-        url: "https://www.berrylan.app/faq.html"
+        url: "https://www.haikubox.org"
     }
 }
