@@ -191,14 +191,14 @@
     <message>
         <location filename="../main.qml" line="180"/>
         <source>Searching for your
-Raspberry Pi</source>
+Haikubox</source>
         <translation>Suche nach Deinem
-Raspberry Pi</translation>
+Haikubox</translation>
     </message>
     <message>
         <location filename="../main.qml" line="209"/>
-        <source>Connecting to your Raspberry Pi</source>
-        <translation>Verbinde zu deinem Raspberry Pi</translation>
+        <source>Connecting to your Haikubox</source>
+        <translation>Verbinde zu deinem Haikubox</translation>
     </message>
     <message>
         <location filename="../main.qml" line="254"/>
@@ -222,12 +222,12 @@ Raspberry Pi</translation>
     </message>
     <message>
         <location filename="../main.qml" line="324"/>
-        <source>Connecting the Raspberry Pi to %1</source>
-        <translation>Verbinde den Raspberry Pi mit %1</translation>
+        <source>Connecting Haikubox to %1</source>
+        <translation>Verbinde den Haikubox mit %1</translation>
     </message>
     <message>
         <location filename="../main.qml" line="327"/>
-        <source>Opening access point &quot;%1&quot; on the Raspberry Pi</source>
+        <source>Opening access point &quot;%1&quot; on the Haikubox</source>
         <translation>Erstelle Access Point &quot;%1&quot; auf dem Rasberry Pi</translation>
     </message>
     <message>

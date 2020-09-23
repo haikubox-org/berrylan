@@ -148,21 +148,21 @@
     </message>
     <message>
         <source>Searching for your
-Raspberry Pi</source>
+Haikubox</source>
         <translation>Ricercando il tuo
-Raspberry Pi</translation>
+Haikubox</translation>
     </message>
     <message>
-        <source>Connecting to your Raspberry Pi</source>
-        <translation>Connettendo al tuo Raspberry Pi</translation>
+        <source>Connecting to your Haikubox</source>
+        <translation>Connettendo al tuo Haikubox</translation>
     </message>
     <message>
         <source>OK</source>
         <translation></translation>
     </message>
     <message>
-        <source>Connecting the Raspberry Pi to %1</source>
-        <translation>Connettendo il Raspberry Pi a %1</translation>
+        <source>Connecting Haikubox to %1</source>
+        <translation>Connettendo il Haikubox a %1</translation>
     </message>
     <message>
         <source>Thanks for using BerryLan!</source>
@@ -185,7 +185,7 @@ Raspberry Pi</translation>
         <translation>Password</translation>
     </message>
     <message>
-        <source>Opening access point &quot;%1&quot; on the Raspberry Pi</source>
+        <source>Opening access point &quot;%1&quot; on the Haikubox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

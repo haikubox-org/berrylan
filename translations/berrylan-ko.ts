@@ -148,11 +148,11 @@
     </message>
     <message>
         <source>Searching for your
-Raspberry Pi</source>
+Haikubox</source>
         <translation>라즈베리 파이를 검색중입니다</translation>
     </message>
     <message>
-        <source>Connecting to your Raspberry Pi</source>
+        <source>Connecting to your Haikubox</source>
         <translation>라즈베리 파이에 연결중</translation>
     </message>
     <message>
@@ -160,7 +160,7 @@ Raspberry Pi</source>
         <translation></translation>
     </message>
     <message>
-        <source>Connecting the Raspberry Pi to %1</source>
+        <source>Connecting Haikubox to %1</source>
         <translation>%1 에 라즈베리 파이 연결중</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@ Raspberry Pi</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Opening access point &quot;%1&quot; on the Raspberry Pi</source>
+        <source>Opening access point &quot;%1&quot; on the Haikubox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

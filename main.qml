@@ -11,7 +11,7 @@ ApplicationWindow {
     visible: true
     width: 320
     height: 480
-    title: qsTr("BerryLan")
+    title: qsTr("Haikubox Connect")
 
     Material.foreground: "#011627"
     Material.background: "#fdfffc"
@@ -174,10 +174,10 @@ ApplicationWindow {
                     height: swipeView.height
                     width: swipeView.width
                     text: !discovery.bluetoothAvailable
-                          ? qsTr("Bluetooth doesn't seem to be available on this device. BerryLan requires a working Bluetooth connection.")
+                          ? qsTr("Bluetooth doesn't seem to be available on this device. Haikubox requires a working Bluetooth connection.")
                           : !discovery.bluetoothEnabled
-                            ? qsTr("Bluetooth seems to be disabled. Please enable Bluetooth on your device in order to use BerryLan.")
-                            : qsTr("Searching for your\nRaspberry Pi")
+                            ? qsTr("Bluetooth seems to be disabled. Please enable Bluetooth on your device in order to use Haikubox.")
+                            : qsTr("Searching for your\nHaikubox")
                 }
 
                 // 1
@@ -206,7 +206,7 @@ ApplicationWindow {
                     id: connectingToPiView
                     height: swipeView.height
                     width: swipeView.width
-                    text: qsTr("Connecting to your Raspberry Pi")
+                    text: qsTr("Connecting to your Haikubox")
                 }
 
                 // 3
@@ -321,10 +321,10 @@ ApplicationWindow {
                             enabled: passwordTextField.displayText.length >= 8
                             onClicked: {
                                 if (d.currentAP) {
-                                    connectingToWiFiView.text = qsTr("Connecting the Raspberry Pi to %1").arg(d.currentAP.ssid);
+                                    connectingToWiFiView.text = qsTr("Connecting Haikubox to %1").arg(d.currentAP.ssid);
                                     networkManager.manager.connectWirelessNetwork(d.currentAP.ssid, passwordTextField.text)
                                 } else {
-                                    connectingToWiFiView.text = qsTr("Opening access point \"%1\" on the Raspberry Pi").arg(ssidTextField.text);
+                                    connectingToWiFiView.text = qsTr("Opening access point \"%1\" on the Haikubox").arg(ssidTextField.text);
                                     networkManager.manager.startAccessPoint(ssidTextField.text, passwordTextField.text)
                                 }
                                 connectingToWiFiView.buttonText = "";
@@ -392,7 +392,14 @@ ApplicationWindow {
                                 width: parent.width
                                 spacing: app.margins * 4
                                 Label {
-                                    text: qsTr("Thanks for using BerryLan!")
+                                    text: qsTr("Haikubox Connected!")
+                                    font.pixelSize: app.largeFont
+                                    Layout.fillWidth: true
+                                    wrapMode: Text.WordWrap
+                                    horizontalAlignment: Text.AlignHCenter
+                                }
+                                Label {
+                                    text: qsTr("Go to Haikubox.com")
                                     font.pixelSize: app.largeFont
                                     Layout.fillWidth: true
                                     wrapMode: Text.WordWrap
@@ -407,7 +414,7 @@ ApplicationWindow {
                                     MouseArea {
                                         anchors.fill: parent
                                         onClicked: {
-                                            Qt.openUrlExternally("https://github.com/nymea/berrylan")
+                                            Qt.openUrlExternally("https://haikubox.com")
                                         }
                                     }
                                 }

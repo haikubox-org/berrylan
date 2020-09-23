@@ -188,7 +188,7 @@ void BluetoothDiscovery::deviceDiscovered(const QBluetoothDeviceInfo &deviceInfo
         }
     }
 
-    m_deviceInfos->addBluetoothDeviceInfo(deviceInformation);
+    if(deviceInformation->name()=="Haikubox") m_deviceInfos->addBluetoothDeviceInfo(deviceInformation);
 }
 
 void BluetoothDiscovery::discoveryFinished()

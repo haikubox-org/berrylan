@@ -148,11 +148,11 @@
     </message>
     <message>
         <source>Searching for your
-Raspberry Pi</source>
+Haikubox</source>
         <translation></translation>
     </message>
     <message>
-        <source>Connecting to your Raspberry Pi</source>
+        <source>Connecting to your Haikubox</source>
         <translation></translation>
     </message>
     <message>
@@ -160,7 +160,7 @@ Raspberry Pi</source>
         <translation></translation>
     </message>
     <message>
-        <source>Connecting the Raspberry Pi to %1</source>
+        <source>Connecting Haikubox to %1</source>
         <translation></translation>
     </message>
     <message>
@@ -184,7 +184,7 @@ Raspberry Pi</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Opening access point &quot;%1&quot; on the Raspberry Pi</source>
+        <source>Opening access point &quot;%1&quot; on the Haikubox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
