@@ -9,9 +9,9 @@
 	<key>CFBundleGetInfoString</key>
 	<string>Created by Qt/QMake</string>
         <key>CFBundleIdentifier</key>
-        <string>loggerhead.com</string>
+        <string>com.haikubox</string>
 	<key>CFBundleName</key>
-        <string>Haikubox</string>
+        <string>haikubox</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

@@ -96,8 +96,8 @@ android: {
 }
 
 ios: {
-    QMAKE_TARGET_BUNDLE_PREFIX = com.loggerhead
-    QMAKE_BUNDLE = haikubox
+    QMAKE_TARGET_BUNDLE_PREFIX = com.haikubox.haikubox
+    QMAKE_BUNDLE = Haikubox
     # Configure generated xcode project to have our bundle id
     xcode_product_bundle_identifier_setting.value = $${QMAKE_TARGET_BUNDLE_PREFIX}.$${QMAKE_BUNDLE}
     QMAKE_ASSET_CATALOGS += ios/AppIcons.xcassets
